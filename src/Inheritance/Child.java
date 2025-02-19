@@ -1,5 +1,9 @@
 package Inheritance;
 
 public class Child extends Parent {
-    int c=30;
+    int b=30;
+    void run(){
+        System.out.println(a);
+        main();
+    }
 }
