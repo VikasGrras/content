@@ -5,8 +5,8 @@ import Inheritance.Parent;
 public class Main {
         int rollno;
      String name;
-    public static Main(Main obj){
-        this.rollno= obj.rollno;
+    public void Main(Main obj){
+         rollno= obj.rollno;
         name= obj.name;
 
 
@@ -19,7 +19,7 @@ public class Main {
 
     public static void main(String[] args){
         Main obj=new Main();
-        Main obj2=new Main(obj);
+        Main obj2=new Main();
         System.out.println(obj2.rollno);
         System.out.println(obj2.name);
 
