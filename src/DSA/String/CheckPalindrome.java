@@ -1,7 +1,7 @@
 package DSA.String;
 
 
-public class CheckPalindrome {
+public class CheckPalindrome   {
     public static boolean isPalindrome(String str) {
         int left = 0, right = str.length() - 1;
         while (left < right) {

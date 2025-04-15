@@ -24,6 +24,6 @@ bin/
 
 ### VS Code ###
 .vscode/
-
+ignore/
 ### Mac OS ###
 .DS_Store

@@ -1,28 +1,28 @@
 package package2;
 
-import Inheritance.Parent;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Main {
-        int rollno;
-     String name;
-    public void Main(Main obj){
-         rollno= obj.rollno;
-        name= obj.name;
-
-
-    }
-    public Main(){
-      rollno=10;
-      name="vikas";
-    }
 
 
     public static void main(String[] args){
-        Main obj=new Main();
-        Main obj2=new Main();
-        System.out.println(obj2.rollno);
-        System.out.println(obj2.name);
-
+        int[] arr={2,-3,-4,-6,5,4};
+        int[] arr2=new int[arr.length];
+         for(int i=0;i<arr.length;i++){
+             if((arr[i]>=0)&&(i%2==0)){
+                 arr2[i]=arr[i];
+             }
+             if((arr[i]<0)&&(i%2!=0)){
+                 arr2[i]=arr[i];
+             }
+         }
+         System.out.println(Arrays.toString(arr2));
 
     }
+
+
+
+
 }

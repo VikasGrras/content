@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
    //Boy obj2=new Parent();
     Boy obj= new Boy();
-   System.out.println(obj.run());
+
 
 
 

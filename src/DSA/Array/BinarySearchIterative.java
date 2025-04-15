@@ -4,6 +4,7 @@ package DSA.Array;
 import java.util.*;
 
 public class BinarySearchIterative{
+    //arr should be in ascending
 
     public static int binarySearch(int[] nums, int target) {
         int n = nums.length; //size of the array.
@@ -20,7 +21,7 @@ public class BinarySearchIterative{
     }
 
     public static void main(String[] args) {
-        int[] a = {3, 4, 6, 7, 9, 12, 16, 17};
+        int[] a = {3, 4, 6, 7, 9, 12, 16, 17};//Arrays.sort
         int target = 6;
         int ind = binarySearch(a, target);
         if (ind == -1)
